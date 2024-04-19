@@ -14,10 +14,8 @@ ol.jogadores{
     list-style:none;
     padding: 4rem;
     margin: 0;
-    text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
 }
 
 ol.jogadores li{
@@ -26,11 +24,14 @@ ol.jogadores li{
     padding:1rem;
     background-color: rgb(201, 113, 113);
     border-radius: 1rem;
-    height: 120px;
     width: 150px;
-    
+    display: flex;
+    flex-direction: column;
 
 }
+
+
+
 
 
 
